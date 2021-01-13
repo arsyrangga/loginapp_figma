@@ -1,0 +1,48 @@
+.login_page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(225, 54, 194);
+  background: linear-gradient(
+    220deg,
+    rgba(225, 54, 194, 1) 0%,
+    rgba(138, 76, 185, 1) 100%
+  );
+  position: relative;
+}
+
+.bulet1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+}
+
+.bulet2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+}
+
+.bulet3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 300px;
+}
+
+.bulet4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 450px;
+  height: 450px;
+}
+
+
