@@ -1,0 +1,327 @@
+.socmed_login a{
+  margin: 0 auto;
+}
+
+
+  .form_wrapper {
+    width: 100vw;
+    height: 100vh;
+    padding: 4%;
+    font-family: "Play";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form_container {
+    background-color: whitesmoke;
+    display: flex;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 2px 3px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .right_side,
+  .left_side {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .right_side {
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+  }
+  
+  .right_side h1{
+    font-size: 18pt;
+    margin-bottom: 20px;
+    margin-top: 3%;
+  }
+  
+  .right_side .login_form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .left_side{
+    position: relative;
+    background: rgb(115,0,202);
+    background: linear-gradient(133deg, rgba(115,0,202,1) 0%, rgba(95,0,168,1) 100%);
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .login_form input {
+    width: 100%;
+    height: 35px;
+    border: none;
+    font-size: 12pt;
+    background-color: whitesmoke;
+    outline: none;
+  }
+  
+  .gradient_border {
+    background: rgb(225, 54, 194);
+    background: linear-gradient(
+      220deg,
+      rgba(225, 54, 194, 1) 0%,
+      rgba(138, 76, 185, 1) 87%
+    );
+    width: 100%;
+    height: 2.5px;
+    margin-top: -12px;
+  }
+  
+  .login_form button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: rgb(225, 54, 194);
+    background: linear-gradient(
+      220deg,
+      rgba(225, 54, 194, 1) 0%,
+      rgba(138, 76, 185, 1) 87%
+    );
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 2%;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .login_form button:hover{
+    background: linear-gradient(
+      220deg,
+      rgba(138, 76, 185, 1) 0%,
+      rgba(225, 54, 194, 1) 87%
+    );
+  }
+  
+  .socmed_login {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .socmed_login .g_login {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(
+      220deg,
+      rgba(255, 0, 0, 1) 0%,
+      rgba(131, 23, 23, 1) 100%
+    );
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .socmed_login .g_login:hover{
+    background: linear-gradient(
+      220deg,
+      rgba(131, 23, 23, 1) 0%,
+      rgba(255, 0, 0, 1) 100%
+    );
+  }
+  
+  .socmed_login h3{
+    font-size: 11pt;
+    color: rgb(116, 116, 116);
+    margin: 0 auto;
+    margin-top: 5%;
+  
+  }
+  
+  .socmed_login .f_login {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: rgb(28, 61, 108);
+    background: linear-gradient(
+      220deg,
+      rgba(28, 61, 108, 1) 0%,
+      rgba(45, 138, 208, 1) 100%
+    );
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .f_login:hover{
+    background: linear-gradient(
+      220deg,
+      rgba(45, 138, 208, 1) 0%,
+      rgba(28, 61, 108, 1) 100%
+    );
+  }
+  
+  .arrow{
+    position: absolute;
+    right: 30px;
+    font-size: 14pt;
+  }
+  
+  .fab{
+    margin: 0 15px;
+  }
+  
+  .decorationAwan1{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    object-fit: cover;
+  
+  }
+  
+  .decorationAwan2{
+    position: absolute;
+    width: 350px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+  }
+  
+  .bulet1{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 40px;
+    left: 35%;
+  }
+  
+  .bulet2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 100px;
+  }
+  
+  .bulet3{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 80%;
+    right: 70px;
+  }
+  
+  .welcomeText{
+    color: white;
+    font-size: 20pt;
+    position: absolute;
+    bottom: 50%;
+    left: 35%;
+    z-index: 100;
+  }
+  
+  .loginText{
+    color: white;
+    font-size: 12pt;
+    font-weight: normal;
+    position: absolute;
+    bottom: 25%;
+    right: 15%;
+    z-index: 100;
+  }
+  
+  .logoLeft{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 30px;
+  }
+  
+  .namaLeft{
+    color: white;
+    position: absolute;
+    font-size: 14pt;
+    top: 48px;
+    left: 78px;
+  
+  }
+  
+  @media only screen and (max-width:500px){
+  .form_container{
+    flex-direction: column;
+  }
+  .left_side{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+  }
+  .right_side{
+    width: 100%;
+    height: 70%;
+  }
+  
+  .decorationAwan1{
+    width: 150px;
+    height: 150px;
+  }
+  
+  .decorationAwan2{
+    border-radius: 0 10px 0 0 ;
+  }
+  
+  .bulet1{
+    width: 70px;
+    height: 70px;
+  }
+  
+  .bulet2{
+    width: 50px;
+    height: 50px;
+    left: 40px;
+    top: 60%;
+  
+  }
+  
+  .bulet3{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .logoLeft{
+    width: 40px;
+    height: 40px;
+  }
+  .welcomeText{
+    position: static;
+  }
+  .loginText{
+    font-size: 10pt;
+    right: 15px;
+    bottom: 25px;
+  }
+  
+  .namaLeft{
+    position: absolute;
+    left: 70px;
+    top: 40px;
+    font-size: 12pt;
+  }
+  
+  }

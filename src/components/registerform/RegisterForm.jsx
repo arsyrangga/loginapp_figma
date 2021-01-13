@@ -1,17 +1,17 @@
-import "./LoginForm.css";
+import './RegisterForm.css'
 import Awan1 from '../../assets/decorationBawahKiri.svg'
 import Awan2 from '../../assets/decorationAtasKanan.svg'
 import bulet1 from '../../assets/bolaAtasKanan.svg'
 import bulet2 from '../../assets/bolaKiri.svg'
 import bulet3 from '../../assets/bolaBawahKanan.svg'
-
 import logo from '../../assets/logo.svg'
 import {Link} from 'react-router-dom'
 
 
-const LoginForm = () => {
-  return (
-    <main className="form_wrapper">
+const RegisterForm = () =>{
+    return(
+        <section className="registerForm">
+            <main className="form_wrapper">
       <div className="form_container">
         <div className="left_side">
           <img src={Awan1} alt="" className="decorationAwan1" />
@@ -24,14 +24,14 @@ const LoginForm = () => {
 
           <h3 className="welcomeText">WELCOME PAGE</h3>
 
-          <h3 className="loginText">SIGN IN <br /> TO CONTINUE ACCESS</h3>
+          <h3 className="loginText"> REGISTER <br /> TO CONTINUE ACCESS</h3>
 
           <h3 className="namaLeft">RANGGA</h3>
           
         </div>
 
         <div className="right_side">
-          <h1>Sign In</h1>
+          <h1>REGISTER</h1>
 
           <form className="login_form">
             <input
@@ -57,14 +57,13 @@ const LoginForm = () => {
             <h3>Or Login With</h3>
             <button className="g_login"><i class="fab fa-google-plus-g"></i>Sign In With Google</button>
             <button className="f_login"><i class="fab fa-facebook-f"></i>Sign in Wit Facebook</button>
-            
-            <Link to="/register">Register</Link>
-
+           <Link to="/login">Login</Link>
           </div>
         </div>
       </div>
     </main>
-  );
-};
+        </section>
+    )
+}
 
-export default LoginForm;
+export default RegisterForm
