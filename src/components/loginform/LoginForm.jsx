@@ -43,6 +43,7 @@ const LoginForm = () => {
             <div className="gradient_border"></div>
 
             <input
+              autoComplete="true"
               type="password"
               id="password"
               name="password"
@@ -50,13 +51,13 @@ const LoginForm = () => {
             />
             <div className="gradient_border"></div>
 
-            <button className="login_button">CONTINUE <i class="fas fa-chevron-right arrow"></i> </button>
+            <button className="login_button">CONTINUE <i className="fas fa-chevron-right arrow"></i> </button>
           </form>
 
           <div className="socmed_login">
             <h3>Or Login With</h3>
-            <button className="g_login"><i class="fab fa-google-plus-g"></i>Sign In With Google</button>
-            <button className="f_login"><i class="fab fa-facebook-f"></i>Sign in Wit Facebook</button>
+            <button className="g_login"><i className="fab fa-google-plus-g"></i>Sign In With Google</button>
+            <button className="f_login"><i className="fab fa-facebook-f"></i>Sign in With Facebook</button>
             
             <Link to="/register">Register</Link>
 
