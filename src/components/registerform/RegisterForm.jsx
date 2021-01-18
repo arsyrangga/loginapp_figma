@@ -25,7 +25,7 @@ const RegisterForm = () =>{
       .auth()
       .createUserWithEmailAndPassword(register.email,register.password)
       .then(user =>{
-        alert("user")
+        alert(user)
       })
       .catch(err=>{
         alert(err)
